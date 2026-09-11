@@ -23,8 +23,7 @@ taller-privacidad-fp/
 │   ├── index.html     # Interfaz simple para visualización de métricas
 │   ├── app.js         # Lógica client-side (Fingerprinting, Web Crypto API, Storage)
 │   └── servidor.py    # Servidor HTTP en Python para capturar cabeceras y peticiones
-└── ctf-challenges/
-    └── flags.md       # Mini-CTF educativo de privacidad con retos y puntuaciones
+
 ```
 
 ---
