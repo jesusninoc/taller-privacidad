@@ -4,7 +4,7 @@
 
 // --- FUNCIONES EXTRA PARA LOS TODOs ---
 
-// TODO 1.1: Extraer información de la GPU (WebGL)
+// TODO 1.1: Extraer información de la GPU (WebGL) corregido
 function obtenerWebGLInfo() {
     try {
         const canvas = document.createElement('canvas');
@@ -13,9 +13,10 @@ function obtenerWebGLInfo() {
         
         const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
         if (debugInfo) {
-            return gl.getParameter(debugInfo.UNMASKED_RENDERER_REG) || gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+            // Usamos la constante exacta para obtener el renderer (tarjeta gráfica)
+            return gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
         }
-        return 'Soportado (Info oculta)';
+        return 'Soportado (Extensión oculta por el navegador)';
     } catch (e) {
         return 'Error al obtener WebGL';
     }
