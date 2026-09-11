@@ -4,7 +4,7 @@ Este mini-CTF está diseñado para ejecutarse durante los últimos 45 minutos de
 
 ---
 
-## 🏆 Retos y Banderas
+## 🏆 Retos y Bandera
 
 ### Reto 1: El Espía del User-Agent (100 pts)
 - **Instrucción:** Usa `curl` para enviar una petición al servidor Python simulando ser un dispositivo móvil "iPhone en iOS 16" sin usar un navegador real.
