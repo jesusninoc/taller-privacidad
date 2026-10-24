@@ -1,5 +1,5 @@
 # 🕵️‍♂️ Taller: ¿Cuánto saben de ti sin preguntarte nada?
-> **Módulos:** DAW + DAM + ASIR | **Duración:** 2 Horas | **Metodología:** Lab First (Código -> Experimentación -> Reflexión)
+> **Módulos: **Duración:** 2 Horas | **Metodología:** Lab First (Código -> Experimentación -> Reflexión)
 
 Este repositorio contiene el material técnico, código fuente, guía pedagógica y retos CTF para impartir el taller práctico sobre privacidad, datos expuestos por navegadores, fingerprinting e inferencia de perfiles.
 
